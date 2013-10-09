@@ -17,6 +17,5 @@ script: |
   && ./pants tests/python/twitter/pants:all
 
 notifications:
-  email:
-      - john.sirois@gmail.com
+  email: false
 
